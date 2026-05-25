@@ -29,7 +29,7 @@ export default async function MinistryDetail({ params }: Props) {
     <div className="flex flex-col min-h-screen bg-gray-50">
       <section className="relative text-white py-32 md:py-48">
         <div className="absolute inset-0 z-0">
-          <Image 
+          <Image sizes="100vw"  quality={100}  
             src={ministry.image} 
             alt={ministry.title} 
             fill 

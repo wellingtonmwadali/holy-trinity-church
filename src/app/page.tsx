@@ -98,7 +98,7 @@ export default function Home() {
 
       {/* History Section */}
       <section className="relative py-20 bg-black text-white overflow-hidden">
-        <Image 
+        <Image sizes="100vw"  quality={100}  
           src="/images/history.jpg" 
           alt="History Background" 
           fill 
@@ -123,7 +123,7 @@ export default function Home() {
             </div>
             <div className="md:w-1/2 flex justify-center">
               <div className="w-72 h-72 md:w-96 md:h-96 rounded-full overflow-hidden shadow-2xl relative border-8 border-white/50 dark:border-gray-800/50">
-                <Image 
+                <Image quality={100}  
                   src="/images/history.jpg" 
                   alt="Historic Church" 
                   fill
@@ -139,7 +139,7 @@ export default function Home() {
       {/* Join Community Form Section */}
       <section className="relative py-24 overflow-hidden">
         <div className="absolute inset-0 z-0">
-          <Image 
+          <Image sizes="100vw"  quality={100}  
             src="/images/worship.jpg" 
             alt="Church Service" 
             fill
@@ -163,7 +163,7 @@ export default function Home() {
             <p className="mb-12 text-gray-300">Latest from our YouTube channel & manually added sermons</p>
             
             <div className="max-w-3xl mx-auto bg-black rounded-2xl overflow-hidden relative shadow-2xl group cursor-pointer h-80 block">
-              <Image 
+              <Image quality={100}  
                 src="/images/worship.jpg" 
                 alt="Sermon Thumbnail" 
                 fill
@@ -225,7 +225,7 @@ export default function Home() {
             
             <div className="lg:w-1/2 flex flex-col items-center">
               <div className="relative rounded-2xl overflow-hidden shadow-2xl mb-8 w-full h-64 max-w-lg group">
-                <Image 
+                <Image quality={100}  
                   src="/images/children.jpg" 
                   alt="Sunday School" 
                   fill

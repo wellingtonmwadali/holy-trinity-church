@@ -10,7 +10,7 @@ export default function PastorCard({ imageSrc, name, title }: PastorCardProps) {
   return (
     <div className="flex flex-col items-center group">
       <div className="w-full h-96 rounded-2xl overflow-hidden mb-4 shadow-lg relative">
-        <Image
+        <Image quality={100} 
           src={imageSrc}
           alt={name}
           fill

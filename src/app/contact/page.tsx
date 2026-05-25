@@ -9,7 +9,7 @@ export default function Contact() {
     <div className="flex flex-col min-h-screen bg-gray-50">
       <section className="relative text-white pt-32 pb-48 md:pt-40 md:pb-56">
         <div className="absolute inset-0 z-0">
-          <Image 
+          <Image sizes="100vw"  quality={100}  
             src="/images/contact-hero.jpg" 
             alt="Contact Background" 
             fill 
@@ -81,7 +81,7 @@ export default function Contact() {
               </div>
 
               <div className="rounded-3xl overflow-hidden shadow-xl h-64 relative group hidden lg:block border border-gray-100">
-                <Image 
+                <Image sizes="100vw"  quality={100}  
                   src="/images/contact-building.jpg" 
                   alt="Church Building" 
                   fill 

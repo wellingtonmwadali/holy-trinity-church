@@ -30,7 +30,7 @@ export default async function EventDetail({ params }: Props) {
       {/* Immersive Hero */}
       <section className="relative text-white h-[60vh] min-h-[400px]">
         <div className="absolute inset-0 z-0">
-          <Image 
+          <Image sizes="100vw"  quality={100}  
             src={event.image} 
             alt={event.title} 
             fill 

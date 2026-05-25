@@ -9,7 +9,7 @@ export default function Sermons() {
     <div className="flex flex-col min-h-screen bg-background">
       <section className="relative text-white py-32 md:py-40">
         <div className="absolute inset-0 z-0">
-          <Image 
+          <Image sizes="100vw"  quality={100}  
             src="/images/sermons-hero.jpg" 
             alt="Sermons Background" 
             fill 
@@ -34,7 +34,7 @@ export default function Sermons() {
             {sermons.map((sermon, idx) => (
               <Link href={`/sermons/${sermon.slug}`} key={idx} className="bg-white rounded-2xl overflow-hidden shadow-md hover:shadow-2xl transition-all group border border-gray-100 flex flex-col h-full">
                 <div className="relative h-64 w-full overflow-hidden">
-                  <Image 
+                  <Image quality={100}  
                     src={sermon.image} 
                     alt={sermon.title} 
                     fill 

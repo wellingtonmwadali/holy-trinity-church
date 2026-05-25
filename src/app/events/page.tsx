@@ -9,7 +9,7 @@ export default function Events() {
     <div className="flex flex-col min-h-screen bg-background">
       <section className="relative text-white py-32 md:py-40">
         <div className="absolute inset-0 z-0">
-          <Image 
+          <Image sizes="100vw"  quality={100}  
             src="/images/events-hero.jpg" 
             alt="Events Background" 
             fill 
@@ -37,7 +37,7 @@ export default function Events() {
                   <span className="sr-only">View Event Details</span>
                 </Link>
                 <div className="md:w-2/5 h-64 md:h-auto relative overflow-hidden">
-                  <Image 
+                  <Image quality={100}  
                     src={event.image} 
                     alt={event.title} 
                     fill 

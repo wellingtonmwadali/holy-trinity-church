@@ -12,7 +12,7 @@ export default function Give() {
       <section className="pt-24 pb-48 relative z-20 text-white text-center">
         {/* Background Image */}
         <div className="absolute inset-0 z-0">
-          <Image 
+          <Image sizes="100vw"  quality={100}  
             src="/images/give-hero.jpg" 
             alt="Give Background" 
             fill 

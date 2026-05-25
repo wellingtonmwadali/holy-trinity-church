@@ -36,7 +36,7 @@ export default async function SermonDetail({ params }: Props) {
           
           {/* Mock Video Player */}
           <div className="relative aspect-video bg-gray-900 rounded-2xl overflow-hidden shadow-2xl border border-gray-800 group cursor-pointer">
-            <Image 
+            <Image sizes="100vw"  quality={100}  
               src={sermon.image} 
               alt={sermon.title} 
               fill 

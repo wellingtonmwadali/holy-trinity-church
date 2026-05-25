@@ -16,7 +16,7 @@ export default function Ministries() {
     <div className="flex flex-col min-h-screen bg-background">
       <section className="relative text-white py-32 md:py-40">
         <div className="absolute inset-0 z-0">
-          <Image 
+          <Image sizes="100vw"  quality={100}  
             src="/images/ministries-hero.jpg" 
             alt="Ministries Background" 
             fill 
@@ -41,7 +41,7 @@ export default function Ministries() {
             {ministries.map((ministry, idx) => (
               <Link href={`/ministries/${ministry.slug}`} key={idx} className="bg-white rounded-2xl overflow-hidden shadow-lg flex flex-col sm:flex-row group cursor-pointer hover:shadow-2xl hover:-translate-y-1 transition-all border border-gray-100 h-full">
                 <div className="sm:w-2/5 h-64 sm:h-auto relative overflow-hidden">
-                  <Image 
+                  <Image quality={100}  
                     src={ministry.image} 
                     alt={ministry.title} 
                     fill

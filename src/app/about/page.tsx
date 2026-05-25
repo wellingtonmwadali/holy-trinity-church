@@ -9,7 +9,7 @@ export default function About() {
       {/* Cinematic Hero */}
       <section className="relative text-white pt-32 pb-48 md:pt-48 md:pb-64">
         <div className="absolute inset-0 z-0">
-          <Image 
+          <Image sizes="100vw"  quality={100}  
             src="/images/about-hero.jpg" 
             alt="Church Background" 
             fill 
@@ -50,7 +50,7 @@ export default function About() {
               </div>
             </div>
             <div className="lg:w-1/2 relative min-h-[400px] lg:min-h-auto">
-              <Image 
+              <Image sizes="100vw"  quality={100}  
                 src="/images/history.jpg" 
                 alt="Historic Church" 
                 fill 
@@ -74,7 +74,7 @@ export default function About() {
             {/* Vision Card */}
             <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all group border border-gray-100 flex flex-col h-full">
               <div className="h-72 overflow-hidden relative w-full">
-                <Image 
+                <Image sizes="100vw"  quality={100}  
                   src="/images/vision.jpg" 
                   alt="Vision" 
                   fill
@@ -96,7 +96,7 @@ export default function About() {
             {/* Mission Card */}
             <div className="bg-white rounded-3xl overflow-hidden shadow-xl hover:shadow-2xl transition-all group border border-gray-100 flex flex-col h-full">
               <div className="h-72 overflow-hidden relative w-full">
-                <Image 
+                <Image sizes="100vw"  quality={100}  
                   src="/images/mission.jpg" 
                   alt="Mission" 
                   fill

@@ -9,7 +9,7 @@ export default function Services() {
     <div className="flex flex-col min-h-screen bg-background">
       <section className="relative text-white py-32 md:py-40">
         <div className="absolute inset-0 z-0">
-          <Image 
+          <Image sizes="100vw"  quality={100}  
             src="/images/services-hero.jpg" 
             alt="Services Background" 
             fill 
@@ -39,7 +39,7 @@ export default function Services() {
             {services.map((service, idx) => (
               <div key={idx} className="bg-white rounded-2xl shadow-md overflow-hidden flex flex-col md:flex-row items-stretch border-l-8 hover:shadow-xl transition-shadow group" style={{ borderLeftColor: 'var(--color-primary)' }}>
                 <div className="md:w-1/4 h-48 md:h-auto relative overflow-hidden">
-                  <Image 
+                  <Image quality={100}  
                     src={service.image} 
                     alt={service.name} 
                     fill 
