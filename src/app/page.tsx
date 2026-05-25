@@ -16,6 +16,8 @@ export default function Home() {
           alt="Holy Trinity Church Hero" 
           fill 
           priority 
+          quality={100}
+          sizes="100vw"
           className="object-cover z-0"
         />
         <div className="absolute inset-0 bg-gradient-to-t from-black/90 via-black/50 to-black/20 z-0" />
