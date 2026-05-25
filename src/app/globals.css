@@ -8,8 +8,8 @@
   --color-background: #FAFAFA; /* Warm cream */
   --color-foreground: #1E293B;
   --color-card: #FFFFFF;
-  --font-sans: var(--font-inter);
-  --font-serif: var(--font-playfair);
+  --font-sans: var(--font-poppins);
+  --font-serif: var(--font-poppins);
 }
 
 :root {
